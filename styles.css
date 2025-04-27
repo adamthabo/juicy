@@ -1,0 +1,93 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000; /* Black background */
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header */
+header {
+  margin-bottom: 2rem;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Juicy (orange) & Project (white) classes */
+.juicy-orange {
+  color: orange;
+}
+
+.project-white {
+  color: #fff; /* or white */
+}
+
+/* Section Headings */
+.jobs-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Tables */
+.jobs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  background-color: #111; /* Slightly different shade for contrast */
+}
+
+.jobs-table th,
+.jobs-table td {
+  border: 1px solid #333; /* White grid lines could be #ccc if you want more contrast */
+  padding: 0.75rem;
+  text-align: left;
+}
+
+/* Example color-coded columns (optional) */
+.title-col {
+  color: #ffcc00; /* Yellowish for title column */
+}
+
+.location-col {
+  color: #66ccff; /* Light blue for location */
+}
+
+.time-col {
+  color: #ff99ff; /* Pink for time */
+}
+
+.amt-col {
+  color: #99ff99; /* Light green for amount */
+}
+
+.client-col {
+  color: #ff9966; /* Orange-ish for client */
+}
+
+.details-col {
+  color: #ffffff; /* White for details */
+}
+
+/* Responsive Table Adjustments (Optional) */
+@media (max-width: 768px) {
+  .jobs-table th,
+  .jobs-table td {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
